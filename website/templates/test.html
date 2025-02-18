@@ -1,0 +1,127 @@
+{% extends "base.html" %} 
+{% block title %}test{% endblock %} 
+{% block content%}
+
+<main>
+	<div class="container">
+	  <h2>Welcome to E-learning</h2>
+	  <p>
+		Welcome to ...
+	  </p>
+	  <p>Some of our happy clients:</p>
+	  <div class="image-container">
+		<img src="/static/puricos.jpg" alt="puricos" />
+		<img src="/static/pisulici.jpg" alt="pisulici" />
+	  </div>
+	  <div class="sub-image-container">
+		<div class="likepaw">
+		  <img src="/static/likepaw.png" alt="likepaw" />
+		  <p>“ The purrsonal here treated me just like mom. ” - Puricosul</p>
+		</div>
+		<div class="likepaw">
+		  <img src="/static/likepaw.png" alt="likepaw" />
+		  <p>“ I was impurresed by the food while my mom was away. - Pisulici</p>
+		</div>
+	  </div>
+	  <p style="text-align: center">
+		Contact us today to schedule an appointment !
+	  </p>
+	</div>
+  </main>
+  
+  {% endblock %} 
+  
+  {% block extra_css %}
+  <style>
+	body {
+	  font-family: Arial, sans-serif;
+	  margin: 0;
+	  padding: 0;
+	  background: linear-gradient(to bottom, #a2b1ff, #e397ef);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	}
+  
+	header {
+	  background-color: #a2b1ff;
+	  color: white;
+	  padding: 20px;
+	}
+  
+	h1 {
+	  margin: 0;
+	}
+  
+	nav {
+	  background-color: #a2b1ff;
+	  color: white;
+	  padding: 10px;
+	}
+  
+	nav ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	}
+  
+	nav ul li:first-child {
+	  margin-left: 50px;
+	}
+  
+	nav ul li:not(:last-child) {
+	  margin-right: 50px;
+	}
+  
+	nav ul li {
+	  display: inline;
+	  margin-right: 10px;
+	}
+  
+	nav ul li a {
+	  color: white;
+	  text-decoration: none;
+	}
+  
+	main {
+	padding: 20px; /* Adjusted padding */
+	min-height: calc(100vh - 40px); /* Adjust for header/footer height */
+  }
+	.login-form {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  background-image: url("/static/login.png");
+	  background-size: cover;
+	  background-position: center;
+	  width: 500px;
+	  height: 400px;
+	  padding: 130px;
+	  text-align: center;
+	}
+  
+	.login-button {
+	  background: none;
+	  border: none;
+	  padding: 20px;
+	  cursor: pointer;
+	}
+  
+	.new-user-button {
+	  width: 200px;
+	  height: 30px;
+	  margin-top: 40px;
+	  background: transparent;
+	  border: none;
+	  color: white;
+	  text-decoration: none;
+	}
+  
+	.new-user-button:hover {
+	  color: rgb(133, 43, 130);
+	  text-decoration: underline;
+	}
+  
+  </style>
+  {% endblock %}
+  

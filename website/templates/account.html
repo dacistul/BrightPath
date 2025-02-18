@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% block title %}My courses{% endblock %}
+
+{% block content %}
+
+<main>
+	<h1 class="course-title">{{_("My courses")}}:</h1>
+        <div class="container-middle">
+            {% if user.courses %}
+            <ul class="list-group list-group-flush" id="courses">
+                {% for course in user.courses %}
+                <li class="list-group-item">
+                    {{_("Name")}}: {{ course.name }} <br>
+                    {{_("Description")}}: {{ course.description }} <br>
+                    {{_("Language")}}: {{ course.language }}
+                    <button type="button" class="cancel" onClick="cancelCourse('{{ course.id }}')">
+                        <span aria-hidden="true">{{_("Unroll Course")}}</span>
+                    </button>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>{{_("No courses enroled.")}}</p>
+            {% endif %}
+        </div>
+</main>
+
+{% endblock %}
+{% block extra_css %}
+<style>
+    html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+        padding: 20px;
+        min-height: auto;
+    }
+
+  .course-title {
+	text-align: center; 
+	color: white; 
+	font-size: 2.5rem; 
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e7cde67a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+  /* .list-group {
+    width: auto; 
+    margin: 0 auto;  
+    max-width: 600px; 
+    background-color: #d1c5ef; 
+    border-radius: 15px;
+    padding: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    } */
+
+    /* Style for individual list items for appointments and reservations */
+    /* .list-group-item {
+        background-color:#d1c5ef;
+        border-radius: 20px;
+       
+    } */
+
+    .list-group-item {
+    background-color: #e7cde67a; /* Background color for each box */
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between each course box */
+    padding: 15px; /* Padding inside each box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
+    transition: transform 0.2s; /* Optional: Smooth hover effect */
+}
+
+    ul#courses li.list-group-item {
+            border-radius: 15px !important;
+        }
+
+    .cancel {
+    background-color: #5e35b1; /* A darker shade of purple for contrast */
+    color: white; /* White text for better readability */
+    border: none; /* No border for a cleaner look */
+    border-radius: 5px; /* Rounded corners for the button */
+    padding: 5px 10px; /* Padding inside the button */
+    margin-left: 10px; /* Space between the button and the text */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-size: 0.8em; /* Optional: adjusts the font size of the button text */
+}
+
+/* Hover effect for the cancel button */
+.cancel:hover {
+    background-color: #b4aebb; /* A slightly lighter purple for the hover effect */
+}
+</style>
+{% endblock %}
+
+{% block javascript %}
+<script type="text/javascript">
+    function cancelCourse(courseId) {
+        fetch("/cancel-course", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({courseId: courseId})
+        }).then(response => {
+            if(response.ok) {
+                window.location.reload();  // Reload the page to update the list
+            } else {
+                alert("Failed to cancel appointment");
+            }
+        });
+    }
+
+</script>
+{% endblock %}
+

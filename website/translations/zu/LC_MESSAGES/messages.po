@@ -1,0 +1,241 @@
+# Zulu translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-12 00:06+0200\n"
+"PO-Revision-Date: 2025-01-12 23:37+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zu\n"
+"Language-Team: zu <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Home"
+msgstr "Ikhaya"
+
+msgid "Achievements"
+msgstr "Izimpumelelo"
+
+msgid "Login"
+msgstr "Ngena"
+
+msgid "Sign up"
+msgstr "Bhalisa"
+
+msgid "My Courses"
+msgstr "Izifundo Zami"
+
+msgid "Upload"
+msgstr "Layisha"
+
+msgid "Logout"
+msgstr "Phuma"
+
+msgid "Language"
+msgstr "Ulimi"
+
+msgid "Chat"
+msgstr "Ingxoxo"
+
+msgid "Professors"
+msgstr "Othisha"
+
+msgid "Students"
+msgstr "Abafundi"
+
+msgid "Send"
+msgstr "Thumela"
+
+msgid "Type a message..."
+msgstr "Bhala umyalezo..."
+
+msgid "2024 Bright Path. All rights reserved."
+msgstr "2024 Bright Path. Wonke amalungelo agodliwe."
+
+msgid "Course overview"
+msgstr "Isifundo esibanzi"
+
+msgid "Name"
+msgstr "Igama"
+
+msgid "Description"
+msgstr "Incazelo"
+
+msgid "Language"
+msgstr "Ulimi"
+
+msgid "See"
+msgstr "Bona"
+
+msgid "No existing courses."
+msgstr "Azikho izifundo ezikhona."
+
+msgid "Achievements"
+msgstr "Izimpumelelo"
+
+msgid "Completed 10 Courses"
+msgstr "Qedile Izifundo Ezingu-10"
+
+msgid "Earned after completing 10 courses."
+msgstr "Kutholwe emva kokuphothula izifundo ezingu-10."
+
+msgid "Expert Learner"
+msgstr "Umfundi Ohloniphekile"
+
+msgid "Awarded after mastering 5 different topics."
+msgstr "Kunikezwa ngemva kokuphothula izihloko ezihlukene ezingu-5."
+
+msgid "Top Contributor"
+msgstr "Umnikeli Ophambili"
+
+msgid "Given to users who contribute regularly to discussions."
+msgstr "Kunikezwa kubasebenzisi abahlanganyela njalo ezingxoxweni."
+
+msgid "Completed a Specialization"
+msgstr "Qedile Uhlaka Oluthile"
+
+msgid "Earned after finishing a complete specialization track."
+msgstr "Kutholwe ngemva kokuphothula izifundo eziqondile."
+
+msgid "Top Scorer"
+msgstr "Umphosa Ophambili"
+
+msgid "Awarded for achieving the highest score on a quiz."
+msgstr "Kunikezwa ngokufinyelela isikhumbuzo esiphezulu ekuthatheni izivivinyo."
+
+msgid "Lifetime Learner"
+msgstr "Umfundi Ohlala Phakade"
+
+msgid "Given to users who have been on the platform for more than 5 years."
+msgstr "Kunikezwa kubasebenzisi abahlala esikhathini eside kakhulu kuhlelo."
+
+msgid "Certificates"
+msgstr "Izitifiketi"
+
+msgid "Data Science Certificate"
+msgstr "Isitifiketi Sezesayensi Zedatha"
+
+msgid "Awarded for completing the Data Science Specialization."
+msgstr "Kunikezwa ngemva kokuphothula Uhlaka lwezesayensi Zedatha."
+
+msgid "Advanced Programming Certificate"
+msgstr "Isitifiketi Sokufundisa Isoftware"
+
+msgid "Completed after mastering advanced programming concepts."
+msgstr "Kupheliswa ngokufunda izifundo zomphumela ophambili."
+
+msgid "Machine Learning Certificate"
+msgstr "Isitifiketi Sokufunda Komshini"
+
+msgid "Awarded after completing a machine learning course with hands-on projects."
+msgstr "Kunikezwa ngemva kokuphothula izifundo zokufunda komshini."
+
+msgid "Category"
+msgstr "Isigaba"
+
+msgid "Course Content"
+msgstr "Okuqukethwe Kwezifundo"
+
+msgid "No courses enroled."
+msgstr "Azikho izifundo ezifakiwe."
+
+msgid "Username"
+msgstr "Igama Lomsebenzisi"
+
+msgid "Pawssword"
+msgstr "Iphasiwedi"
+
+msgid "New user? Press here!"
+msgstr "Umsebenzisi omusha? Cindezela lapha!"
+
+msgid "Enter your username"
+msgstr "Faka igama lakho lomsebenzisi"
+
+msgid "Enter your password"
+msgstr "Faka iphasiwedi yakho"
+
+msgid "Re-enter your password"
+msgstr "Phinda ufake iphasiwedi yakho"
+
+msgid "Enter your email"
+msgstr "Faka i-imeyili yakho"
+
+msgid "Account Type"
+msgstr "Uhlobo lwe-akhawunti"
+
+msgid "Student"
+msgstr "Umfundi"
+
+msgid "Professor"
+msgstr "Uprofesa"
+
+msgid "Already have an account?"
+msgstr "Unayo i-akhawunti esivele?"
+
+msgid "Upload Course"
+msgstr "Layisha Izifundo"
+
+msgid "Course Name"
+msgstr "Igama leSigaba"
+
+msgid "Course Description"
+msgstr "Incazelo yeSigaba"
+
+msgid "Course Language"
+msgstr "Ulimi lweSigaba"
+
+msgid "Course Category"
+msgstr "Isigaba seSigaba"
+
+msgid "Course Paragraph"
+msgstr "Isigaba seSigaba"
+
+msgid "Enroll"
+msgstr "Bhalisa"
+
+msgid "My courses"
+msgstr "Izifundo zami"
+
+msgid "Course uploaded"
+msgstr "Ikhosi ilayishiwe"
+
+msgid "Incorrect password, try again."
+msgstr "Iphasiwedi ayilungile, zama futhi."
+
+msgid "User does not exist."
+msgstr "Umsebenzisi akekho."
+
+msgid "User already exists. Log in!"
+msgstr "Umsebenzisi usevele ukhona. Ngena ngemvume!"
+
+msgid "Username must be greater than 3 characters"
+msgstr "Igama lomsebenzisi kumele libe ngaphezu kwezinhlamvu ezi-3"
+
+msgid "Password must be greater than 3 characters"
+msgstr "Iphasiwedi kumele ibe ngaphezu kwezinhlamvu ezi-3"
+
+msgid "Passwords must match"
+msgstr "Amaphasiwedi kumele afane"
+
+msgid "Invalid email format. Please use a valid email (e.g., example@domain.com or example@domain.ro)."
+msgstr "Ifomethi ye-imeyili ayilungile. Sicela usebenzise i-imeyili evumelekile (isb. example@domain.com noma example@domain.ro)."
+
+msgid "Account was created"
+msgstr "I-akhawunti idaliwe"
+
+msgid "Logged in successfully as %(account_type)s!"
+msgstr "Ungene ngempumelelo njenge-%(account_type)s!"
+
+msgid "Unroll Course"
+msgstr "Phuma Kwikhosi"
+
+msgid "Chat with"
+msgstr "Xoxa no"

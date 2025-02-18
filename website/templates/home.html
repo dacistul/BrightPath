@@ -1,0 +1,161 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} 
+{% block content%}
+
+<main>
+	<!-- TODO: Add button to add course to specific user -->
+	<h1 class="course-title">{{_("Course overview")}}</h1>
+    <div class="container-middle">
+        {% if courses %}
+        <ul class="list-group list-group-flush" id="courses">
+            {% for course in courses %}
+            <li class="list-group-item">
+                {{_("Name")}}: {{ course.name }} <br>
+                {{_("Description")}}: {{ course.description }} <br>
+                {{_("Language")}}: {{ course.language }}
+				{% if course in user.courses %}
+                <a href="{{ url_for('views.course_detail', course_id=course.id) }}">
+                    <button type="button" class="details">
+                        <span aria-hidden="true">{{_("See")}}</span>
+                    </button>
+                </a>
+                {% else %}
+                <button type="button" class="enroll" onClick="enrollCourse('{{ course.id }}')">
+                    <span aria-hidden="true">{{_("Enroll")}}</span>
+                </button>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>{{_("No existing courses.")}}</p>
+        {% endif %}
+    </div>
+</main>
+
+{% endblock %} 
+{% block extra_css %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #a2b1ff, #e397ef);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    header {
+        background-color: #a2b1ff;
+        color: lightgray;
+        padding: 20px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    nav {
+        background-color: #a2b1ff;
+        color: #a7c1ff;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    nav ul li:first-child {
+        margin-left: 50px;
+    }
+
+    nav ul li:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    nav ul li a {
+        color: #baa3c7;
+        text-decoration: none;
+    }
+
+    main {
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #e7cde67a;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .list-group-item {
+        background-color: #e7cde67a;
+        margin-bottom: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    ul#courses li.list-group-item {
+        border-radius: 15px !important;
+    }
+
+    .course-title {
+	text-align: center; 
+	color: white;
+	font-size: 2.5rem; 
+	font-weight: bold; 
+	margin-bottom: 20px; 
+}
+
+    footer {
+        background-color: transparent;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+	
+	.enroll, .details {
+        background-color: #5e35b1;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .enroll:hover, .details:hover {
+        background-color: #b4aebb;
+    }
+</style>
+{% endblock %}
+{% block javascript %}
+<script type="text/javascript">
+    function enrollCourse(courseId) {
+        fetch("/enroll-course", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({courseId: courseId})
+        }).then(response => {
+            if(response.ok) {
+                window.location.reload();  // Reload the page to update the list
+            } else {
+                alert("Failed to enroll in course");
+            }
+        });
+    }
+</script>
+{% endblock %}

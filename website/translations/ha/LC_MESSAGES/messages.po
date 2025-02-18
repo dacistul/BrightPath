@@ -1,0 +1,241 @@
+# Hausa translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-12 00:06+0200\n"
+"PO-Revision-Date: 2025-01-12 23:37+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ha\n"
+"Language-Team: ha <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Home"
+msgstr "Gida"
+
+msgid "Achievements"
+msgstr "Nasarori"
+
+msgid "Login"
+msgstr "Shiga"
+
+msgid "Sign up"
+msgstr "Rajista"
+
+msgid "My Courses"
+msgstr "Koyarwar da nake yi"
+
+msgid "Upload"
+msgstr "Loda"
+
+msgid "Logout"
+msgstr "Fita"
+
+msgid "Language"
+msgstr "Harshe"
+
+msgid "Chat"
+msgstr "Tattaunawa"
+
+msgid "Professors"
+msgstr "Malamai"
+
+msgid "Students"
+msgstr "Dalibai"
+
+msgid "Send"
+msgstr "Aika"
+
+msgid "Type a message..."
+msgstr "Rubuta saƙo..."
+
+msgid "2024 Bright Path. All rights reserved."
+msgstr "2024 Bright Path. Dukkan hakkoki sun ajiye."
+
+msgid "Course overview"
+msgstr "Duba Koyarwa"
+
+msgid "Name"
+msgstr "Suna"
+
+msgid "Description"
+msgstr "Bayani"
+
+msgid "Language"
+msgstr "Harshe"
+
+msgid "See"
+msgstr "Duba"
+
+msgid "No existing courses."
+msgstr "Babu wani darasi na yanzu."
+
+msgid "Achievements"
+msgstr "Nasarori"
+
+msgid "Completed 10 Courses"
+msgstr "An kammala Darasi 10"
+
+msgid "Earned after completing 10 courses."
+msgstr "An samu bayan kammala darasi guda 10."
+
+msgid "Expert Learner"
+msgstr "Malam Mai Kwarewa"
+
+msgid "Awarded after mastering 5 different topics."
+msgstr "An ba da kyauta bayan kammala koyan batutuwa 5 daban-daban."
+
+msgid "Top Contributor"
+msgstr "Mai Taimako Mafi Girma"
+
+msgid "Given to users who contribute regularly to discussions."
+msgstr "Ana bayar da wannan kyautar ga masu amfani da ke ba da gudummawa a tattaunawa akai-akai."
+
+msgid "Completed a Specialization"
+msgstr "An kammala Kwarewa"
+
+msgid "Earned after finishing a complete specialization track."
+msgstr "An samu bayan kammala tsarin kwarewa."
+
+msgid "Top Scorer"
+msgstr "Mai Mafi Kyawun Makirci"
+
+msgid "Awarded for achieving the highest score on a quiz."
+msgstr "An ba da kyauta don samun mafi kyawun maki a gwaji."
+
+msgid "Lifetime Learner"
+msgstr "Malam Mai Koyo Har Abada"
+
+msgid "Given to users who have been on the platform for more than 5 years."
+msgstr "Ana bayar da wannan kyautar ga masu amfani da suka kasance a dandalin na fiye da shekaru 5."
+
+msgid "Certificates"
+msgstr "Takardun Shaida"
+
+msgid "Data Science Certificate"
+msgstr "Takardar Shaida na Kimiyyar Bayanai"
+
+msgid "Awarded for completing the Data Science Specialization."
+msgstr "An ba da kyauta bayan kammala kwarewa a Kimiyyar Bayanai."
+
+msgid "Advanced Programming Certificate"
+msgstr "Takardar Shaida na Shirin Ingantaccen Lissafi"
+
+msgid "Completed after mastering advanced programming concepts."
+msgstr "An kammala bayan kwarewa a cikin tsare-tsare na shirye-shiryen kwamfuta."
+
+msgid "Machine Learning Certificate"
+msgstr "Takardar Shaida na Koyon Injin"
+
+msgid "Awarded after completing a machine learning course with hands-on projects."
+msgstr "An ba da kyauta bayan kammala darasi a Koyon Injin tare da aikin hannu."
+
+msgid "Category"
+msgstr "Rukunin"
+
+msgid "Course Content"
+msgstr "Abun Cikin Darasi"
+
+msgid "No courses enroled."
+msgstr "Babu darussa da aka yi rajista."
+
+msgid "Username"
+msgstr "Sunan Mai Amfani"
+
+msgid "Pawssword"
+msgstr "Kalmar Sirri"
+
+msgid "New user? Press here!"
+msgstr "Sabon mai amfani? Danna anan!"
+
+msgid "Enter your username"
+msgstr "Shigar da sunan mai amfani"
+
+msgid "Enter your password"
+msgstr "Shigar da kalmar sirri"
+
+msgid "Re-enter your password"
+msgstr "Sake shigar da kalmar sirri"
+
+msgid "Enter your email"
+msgstr "Shigar da imel dinka"
+
+msgid "Account Type"
+msgstr "Nau'in Asusun"
+
+msgid "Student"
+msgstr "Dalibi"
+
+msgid "Professor"
+msgstr "Malami"
+
+msgid "Already have an account?"
+msgstr "Kana da asusu tuni?"
+
+msgid "Upload Course"
+msgstr "Loda Darasi"
+
+msgid "Course Name"
+msgstr "Sunan Darasi"
+
+msgid "Course Description"
+msgstr "Bayani na Darasi"
+
+msgid "Course Language"
+msgstr "Harshe na Darasi"
+
+msgid "Course Category"
+msgstr "Rukunin Darasi"
+
+msgid "Course Paragraph"
+msgstr "Babi na Darasi"
+
+msgid "Enroll"
+msgstr "Yi rajista"
+
+msgid "My courses"
+msgstr "Kwasa-kwasan da nake ciki"
+
+msgid "Course uploaded"
+msgstr "An ɗora darasi"
+
+msgid "Incorrect password, try again."
+msgstr "Kalmar sirri ba ta daidai ba, sake gwadawa."
+
+msgid "User does not exist."
+msgstr "Mai amfani bai wanzu ba."
+
+msgid "User already exists. Log in!"
+msgstr "Mai amfani ya riga ya wanzu. Shiga!"
+
+msgid "Username must be greater than 3 characters"
+msgstr "Sunan mai amfani dole ya zama fiye da haruffa 3"
+
+msgid "Password must be greater than 3 characters"
+msgstr "Kalmar sirri dole ta zama fiye da haruffa 3"
+
+msgid "Passwords must match"
+msgstr "Kalmar sirri dole su yi daidai"
+
+msgid "Invalid email format. Please use a valid email (e.g., example@domain.com or example@domain.ro)."
+msgstr "Tsarin imel ba daidai ba ne. Don Allah a yi amfani da imel mai inganci (misali, example@domain.com ko example@domain.ro)."
+
+msgid "Account was created"
+msgstr "An ƙirƙiri asusu"
+
+msgid "Logged in successfully as %(account_type)s!"
+msgstr "An yi nasarar shiga azaman %(account_type)s!"
+
+msgid "Unroll Course"
+msgstr "Fice daga Darasi"
+
+msgid "Chat with"
+msgstr "Tattauna da"

@@ -1,0 +1,241 @@
+# English translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-12 00:06+0200\n"
+"PO-Revision-Date: 2025-01-12 00:06+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Achievements"
+msgstr "Achievements"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Sign up"
+msgstr "Sign up"
+
+msgid "My Courses"
+msgstr "My Courses"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Professors"
+msgstr "Professors"
+
+msgid "Students"
+msgstr "Students"
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Type a message..."
+msgstr "Type a message..."
+
+msgid "2024 Bright Path. All rights reserved."
+msgstr "2024 Bright Path. All rights reserved."
+
+msgid "Course overview"
+msgstr "Course overview"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "See"
+msgstr "See"
+
+msgid "No existing courses."
+msgstr "No existing courses."
+
+msgid "Achievements"
+msgstr "Achievements"
+
+msgid "Completed 10 Courses"
+msgstr "Completed 10 Courses"
+
+msgid "Earned after completing 10 courses."
+msgstr "Earned after completing 10 courses."
+
+msgid "Expert Learner"
+msgstr "Expert Learner"
+
+msgid "Awarded after mastering 5 different topics."
+msgstr "Awarded after mastering 5 different topics."
+
+msgid "Top Contributor"
+msgstr "Top Contributor"
+
+msgid "Given to users who contribute regularly to discussions."
+msgstr "Given to users who contribute regularly to discussions."
+
+msgid "Completed a Specialization"
+msgstr "Completed a Specialization"
+
+msgid "Earned after finishing a complete specialization track."
+msgstr "Earned after finishing a complete specialization track."
+
+msgid "Top Scorer"
+msgstr "Top Scorer"
+
+msgid "Awarded for achieving the highest score on a quiz."
+msgstr "Awarded for achieving the highest score on a quiz."
+
+msgid "Lifetime Learner"
+msgstr "Lifetime Learner"
+
+msgid "Given to users who have been on the platform for more than 5 years."
+msgstr "Given to users who have been on the platform for more than 5 years."
+
+msgid "Certificates"
+msgstr "Certificates"
+
+msgid "Data Science Certificate"
+msgstr "Data Science Certificate"
+
+msgid "Awarded for completing the Data Science Specialization."
+msgstr "Awarded for completing the Data Science Specialization."
+
+msgid "Advanced Programming Certificate"
+msgstr "Advanced Programming Certificate"
+
+msgid "Completed after mastering advanced programming concepts."
+msgstr "Completed after mastering advanced programming concepts."
+
+msgid "Machine Learning Certificate"
+msgstr "Machine Learning Certificate"
+
+msgid "Awarded after completing a machine learning course with hands-on projects."
+msgstr "Awarded after completing a machine learning course with hands-on projects."
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Course Content"
+msgstr "Course Content"
+
+msgid "No courses enroled."
+msgstr "No courses enroled."
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Pawssword"
+msgstr "Pawssword"
+
+msgid "New user? Press here!"
+msgstr "New user? Press here!"
+
+msgid "Enter your username"
+msgstr "Enter your username"
+
+msgid "Enter your password"
+msgstr "Enter your password"
+
+msgid "Re-enter your password"
+msgstr "Re-enter your password"
+
+msgid "Enter your email"
+msgstr "Enter your email"
+
+msgid "Account Type"
+msgstr "Account Type"
+
+msgid "Student"
+msgstr "Student"
+
+msgid "Professor"
+msgstr "Professor"
+
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+msgid "Upload Course"
+msgstr "Upload Course"
+
+msgid "Course Name"
+msgstr "Course Name"
+
+msgid "Course Description"
+msgstr "Course Description"
+
+msgid "Course Language"
+msgstr "Course Language"
+
+msgid "Course Category"
+msgstr "Course Category"
+
+msgid "Course Paragraph"
+msgstr "Course Paragraph"
+
+msgid "Enroll"
+msgstr "Enroll"
+
+msgid "My courses"
+msgstr "My courses"
+
+msgid "Course uploaded"
+msgstr "Course uploaded"
+
+msgid "Incorrect password, try again."
+msgstr "Incorrect password, try again."
+
+msgid "User does not exist."
+msgstr "User does not exist."
+
+msgid "User already exists. Log in!"
+msgstr "User already exists. Log in!"
+
+msgid "Username must be greater than 3 characters"
+msgstr "Username must be greater than 3 characters"
+
+msgid "Password must be greater than 3 characters"
+msgstr "Password must be greater than 3 characters"
+
+msgid "Passwords must match"
+msgstr "Passwords must match"
+
+msgid "Invalid email format. Please use a valid email (e.g., example@domain.com or example@domain.ro)."
+msgstr "Invalid email format. Please use a valid email (e.g., example@domain.com or example@domain.ro)."
+
+msgid "Account was created"
+msgstr "Account was created"
+
+msgid "Logged in successfully as %(account_type)s!"
+msgstr "Logged in successfully as %(account_type)s!"
+
+msgid "Unroll Course"
+msgstr "Unroll Course"
+
+msgid "Chat with"
+msgstr "Chat with"

@@ -1,0 +1,241 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-12 00:06+0200\n"
+"PO-Revision-Date: 2025-01-12 23:36+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Achievements"
+msgstr "実績"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Sign up"
+msgstr "サインアップ"
+
+msgid "My Courses"
+msgstr "マイコース"
+
+msgid "Upload"
+msgstr "アップロード"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Chat"
+msgstr "チャット"
+
+msgid "Professors"
+msgstr "教授"
+
+msgid "Students"
+msgstr "学生"
+
+msgid "Send"
+msgstr "送信"
+
+msgid "Type a message..."
+msgstr "メッセージを入力..."
+
+msgid "2024 Bright Path. All rights reserved."
+msgstr "2024 Bright Path. 全著作権所有。"
+
+msgid "Course overview"
+msgstr "コース概要"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "See"
+msgstr "見る"
+
+msgid "No existing courses."
+msgstr "既存のコースはありません。"
+
+msgid "Achievements"
+msgstr "実績"
+
+msgid "Completed 10 Courses"
+msgstr "10コースを修了"
+
+msgid "Earned after completing 10 courses."
+msgstr "10コースを修了後に獲得"
+
+msgid "Expert Learner"
+msgstr "専門的な学習者"
+
+msgid "Awarded after mastering 5 different topics."
+msgstr "5つの異なるトピックを習得後に授与"
+
+msgid "Top Contributor"
+msgstr "トップ貢献者"
+
+msgid "Given to users who contribute regularly to discussions."
+msgstr "定期的にディスカッションに貢献するユーザーに授与"
+
+msgid "Completed a Specialization"
+msgstr "専門分野を修了"
+
+msgid "Earned after finishing a complete specialization track."
+msgstr "完全な専門分野を修了後に獲得"
+
+msgid "Top Scorer"
+msgstr "トップスコア"
+
+msgid "Awarded for achieving the highest score on a quiz."
+msgstr "クイズで最高得点を達成した者に授与"
+
+msgid "Lifetime Learner"
+msgstr "生涯学習者"
+
+msgid "Given to users who have been on the platform for more than 5 years."
+msgstr "5年以上プラットフォームに参加しているユーザーに授与"
+
+msgid "Certificates"
+msgstr "証明書"
+
+msgid "Data Science Certificate"
+msgstr "データサイエンス証明書"
+
+msgid "Awarded for completing the Data Science Specialization."
+msgstr "データサイエンス専門分野を修了した者に授与"
+
+msgid "Advanced Programming Certificate"
+msgstr "高度なプログラミング証明書"
+
+msgid "Completed after mastering advanced programming concepts."
+msgstr "高度なプログラミング概念を習得後に修了"
+
+msgid "Machine Learning Certificate"
+msgstr "機械学習証明書"
+
+msgid "Awarded after completing a machine learning course with hands-on projects."
+msgstr "実際のプロジェクトを伴う機械学習コースを修了後に授与"
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "Course Content"
+msgstr "コース内容"
+
+msgid "No courses enroled."
+msgstr "登録されたコースはありません。"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Pawssword"
+msgstr "パスワード"
+
+msgid "New user? Press here!"
+msgstr "新しいユーザーですか？ ここをクリック！"
+
+msgid "Enter your username"
+msgstr "ユーザー名を入力"
+
+msgid "Enter your password"
+msgstr "パスワードを入力"
+
+msgid "Re-enter your password"
+msgstr "パスワードを再入力"
+
+msgid "Enter your email"
+msgstr "メールアドレスを入力"
+
+msgid "Account Type"
+msgstr "アカウントタイプ"
+
+msgid "Student"
+msgstr "学生"
+
+msgid "Professor"
+msgstr "教授"
+
+msgid "Already have an account?"
+msgstr "すでにアカウントをお持ちですか？"
+
+msgid "Upload Course"
+msgstr "コースをアップロード"
+
+msgid "Course Name"
+msgstr "コース名"
+
+msgid "Course Description"
+msgstr "コースの説明"
+
+msgid "Course Language"
+msgstr "コースの言語"
+
+msgid "Course Category"
+msgstr "コースカテゴリー"
+
+msgid "Course Paragraph"
+msgstr "コースの段落"
+
+msgid "Enroll"
+msgstr "登録"
+
+msgid "My courses"
+msgstr "私のコース"
+
+msgid "Course uploaded"
+msgstr "コースがアップロードされました"
+
+msgid "Incorrect password, try again."
+msgstr "パスワードが間違っています。再試行してください。"
+
+msgid "User does not exist."
+msgstr "ユーザーが存在しません。"
+
+msgid "User already exists. Log in!"
+msgstr "ユーザーは既に存在します。ログインしてください！"
+
+msgid "Username must be greater than 3 characters"
+msgstr "ユーザー名は3文字以上である必要があります"
+
+msgid "Password must be greater than 3 characters"
+msgstr "パスワードは3文字以上である必要があります"
+
+msgid "Passwords must match"
+msgstr "パスワードが一致する必要があります"
+
+msgid "Invalid email format. Please use a valid email (e.g., example@domain.com or example@domain.ro)."
+msgstr "無効なメール形式です。有効なメール（例：example@domain.com または example@domain.ro）を使用してください。"
+
+msgid "Account was created"
+msgstr "アカウントが作成されました"
+
+msgid "Logged in successfully as %(account_type)s!"
+msgstr "%(account_type)s として正常にログインしました！"
+
+msgid "Unroll Course"
+msgstr "コースを解除"
+
+msgid "Chat with"
+msgstr "チャット相手"

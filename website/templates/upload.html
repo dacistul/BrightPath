@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block title %}Upload Course{% endblock %}
+
+{% block content %}
+<main>
+	<div class="container">
+		<h2 style="color: white;  text-align: center;">{{_("Upload Course")}}</h2>
+		<form method="POST">
+			<div class="form-group">
+				<label for="course-name"  style="color: white;">{{_("Course Name")}}:</label>
+				<input type="text" id="course-name" name="name" class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label for="course-description" style="color: white;">{{_("Course Description")}}:</label>
+				<textarea id="course-description" name="description" class="form-control" rows="3" required></textarea>
+			</div>
+			<div class="form-group">
+				<label for="course-language" style="color: white;">{{_("Course Language")}}:</label>
+				<input type="text" id="course-language" name="language" class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label for="course-category" style="color: white;">{{_("Course Category")}}:</label>
+				<input type="text" id="course-category" name="category" class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label for="course-paragraphs" style="color: white;">{{_("Course Paragraph")}}s:</label>
+				<textarea id="course-paragraphs" name="paragraphs" class="form-control" rows="5" required></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary" >{{_("Upload Course")}}</button>
+		</form>
+	</div>
+</main>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		background: linear-gradient(to bottom, #a2b1ff, #e397ef);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	header {
+		background-color: #a2b1ff;
+		color: white;
+		padding: 20px;
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	nav {
+		background-color: #a2b1ff;
+		color: white;
+		padding: 10px;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li {
+		display: inline;
+		margin-right: 10px;
+	}
+
+	nav ul li:first-child {
+		margin-left: 50px;
+	}
+
+	nav ul li:not(:last-child) {
+		margin-right: 50px;
+	}
+
+	nav ul li a {
+		color: white;
+		text-decoration: none;
+	}
+
+	main {
+		padding: 20px;
+	}
+
+	footer {
+		background-color: #e397ef;
+		color: white;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.form-group {
+		margin-bottom: 15px;
+	}
+
+	.btn-primary {
+		background-color: #5e35b1;
+		border-color: #5e35b1;		
+		display: block; 
+    	margin: 20px auto;
+    	text-align: center;
+	}
+
+	.btn-primary:hover {
+		background-color: #4a278f;
+		border-color: #4a278f;
+	}
+</style>
+{% endblock %}

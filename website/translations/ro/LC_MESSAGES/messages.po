@@ -1,0 +1,242 @@
+# Romanian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-12 00:06+0200\n"
+"PO-Revision-Date: 2025-01-12 00:06+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ro\n"
+"Language-Team: ro <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100"
+" < 20)) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Home"
+msgstr "Acasă"
+
+msgid "Achievements"
+msgstr "Realizări"
+
+msgid "Login"
+msgstr "Autentificare"
+
+msgid "Sign up"
+msgstr "Înscriere"
+
+msgid "My Courses"
+msgstr "Cursurile mele"
+
+msgid "Upload"
+msgstr "Încarcă"
+
+msgid "Logout"
+msgstr "Deconectare"
+
+msgid "Language"
+msgstr "Limbă"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Professors"
+msgstr "Profesori"
+
+msgid "Students"
+msgstr "Studenți"
+
+msgid "Send"
+msgstr "Trimite"
+
+msgid "Type a message..."
+msgstr "Scrie un mesaj..."
+
+msgid "2024 Bright Path. All rights reserved."
+msgstr "2024 Bright Path. Toate drepturile rezervate."
+
+msgid "Course overview"
+msgstr "Prezentarea cursului"
+
+msgid "Name"
+msgstr "Nume"
+
+msgid "Description"
+msgstr "Descriere"
+
+msgid "Language"
+msgstr "Limbă"
+
+msgid "See"
+msgstr "Vezi"
+
+msgid "No existing courses."
+msgstr "Nu există cursuri."
+
+msgid "Achievements"
+msgstr "Realizări"
+
+msgid "Completed 10 Courses"
+msgstr "Am terminat 10 cursuri"
+
+msgid "Earned after completing 10 courses."
+msgstr "Câștigat după finalizarea a 10 cursuri."
+
+msgid "Expert Learner"
+msgstr "Învățător expert"
+
+msgid "Awarded after mastering 5 different topics."
+msgstr "Acordat după stăpânirea a 5 subiecte diferite."
+
+msgid "Top Contributor"
+msgstr "Contribuitor de top"
+
+msgid "Given to users who contribute regularly to discussions."
+msgstr "Acordat utilizatorilor care contribuie regulat la discuții."
+
+msgid "Completed a Specialization"
+msgstr "Specializare finalizată"
+
+msgid "Earned after finishing a complete specialization track."
+msgstr "Câștigat după finalizarea unei specializări complete."
+
+msgid "Top Scorer"
+msgstr "Cea mai bună performanță"
+
+msgid "Awarded for achieving the highest score on a quiz."
+msgstr "Acordat pentru obținerea celui mai mare scor la un test."
+
+msgid "Lifetime Learner"
+msgstr "Învățător pe viață"
+
+msgid "Given to users who have been on the platform for more than 5 years."
+msgstr "Acordat utilizatorilor care sunt pe platformă de mai mult de 5 ani."
+
+msgid "Certificates"
+msgstr "Certificate"
+
+msgid "Data Science Certificate"
+msgstr "Certificat în Știința Datelor"
+
+msgid "Awarded for completing the Data Science Specialization."
+msgstr "Acordat pentru finalizarea specializării în Știința Datelor."
+
+msgid "Advanced Programming Certificate"
+msgstr "Certificat în Programare Avansată"
+
+msgid "Completed after mastering advanced programming concepts."
+msgstr "Finalizat după stăpânirea conceptelor avansate de programare."
+
+msgid "Machine Learning Certificate"
+msgstr "Certificat în Învățare Automată"
+
+msgid "Awarded after completing a machine learning course with hands-on projects."
+msgstr "Acordat după finalizarea unui curs de învățare automată cu proiecte practice."
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Course Content"
+msgstr "Conținutul cursului"
+
+msgid "No courses enroled."
+msgstr "Nu sunt cursuri înscrise."
+
+msgid "Username"
+msgstr "Nume utilizator"
+
+msgid "Pawssword"
+msgstr "Parolă"
+
+msgid "New user? Press here!"
+msgstr "Ești nou? Apasă aici!"
+
+msgid "Enter your username"
+msgstr "Introduceti numele de utilizator"
+
+msgid "Enter your password"
+msgstr "Introduceti parola"
+
+msgid "Re-enter your password"
+msgstr "Reintroduceți parola"
+
+msgid "Enter your email"
+msgstr "Introduceti emailul"
+
+msgid "Account Type"
+msgstr "Tipul contului"
+
+msgid "Student"
+msgstr "Student"
+
+msgid "Professor"
+msgstr "Profesor"
+
+msgid "Already have an account?"
+msgstr "Ai deja un cont?"
+
+msgid "Upload Course"
+msgstr "Încarcă curs"
+
+msgid "Course Name"
+msgstr "Numele cursului"
+
+msgid "Course Description"
+msgstr "Descrierea cursului"
+
+msgid "Course Language"
+msgstr "Limbă curs"
+
+msgid "Course Category"
+msgstr "Categorie curs"
+
+msgid "Course Paragraph"
+msgstr "Paragraf curs"
+
+msgid "Enroll"
+msgstr "Înscriere"
+
+msgid "My courses"
+msgstr "Cursurile mele"
+
+msgid "Course uploaded"
+msgstr "Curs încărcat"
+
+msgid "Incorrect password, try again."
+msgstr "Parolă incorectă, încearcă din nou."
+
+msgid "User does not exist."
+msgstr "Utilizatorul nu există."
+
+msgid "User already exists. Log in!"
+msgstr "Utilizatorul există deja. Autentifică-te!"
+
+msgid "Username must be greater than 3 characters"
+msgstr "Numele de utilizator trebuie să aibă mai mult de 3 caractere"
+
+msgid "Password must be greater than 3 characters"
+msgstr "Parola trebuie să aibă mai mult de 3 caractere"
+
+msgid "Passwords must match"
+msgstr "Parolele trebuie să coincidă"
+
+msgid "Invalid email format. Please use a valid email (e.g., example@domain.com or example@domain.ro)."
+msgstr "Format de email invalid. Te rugăm să folosești un email valid (ex.: example@domain.com sau example@domain.ro)."
+
+msgid "Account was created"
+msgstr "Contul a fost creat"
+
+msgid "Logged in successfully as %(account_type)s!"
+msgstr "Autentificat cu succes ca %(account_type)s!"
+
+msgid "Unroll Course"
+msgstr "Retrage-te din curs"
+
+msgid "Chat with"
+msgstr "Chat cu"

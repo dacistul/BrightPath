@@ -1,0 +1,202 @@
+# Italian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-12 00:06+0200\n"
+"PO-Revision-Date: 2025-01-12 23:34+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Home"
+msgstr "Casa"
+
+msgid "Achievements"
+msgstr "Risultati"
+
+msgid "Login"
+msgstr "Accedi"
+
+msgid "Sign up"
+msgstr "Registrati"
+
+msgid "My Courses"
+msgstr "I miei corsi"
+
+msgid "Upload"
+msgstr "Carica"
+
+msgid "Logout"
+msgstr "Esci"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Chat"
+msgstr "Chatta"
+
+msgid "Professors"
+msgstr "Professori"
+
+msgid "Students"
+msgstr "Studenti"
+
+msgid "Send"
+msgstr "Invia"
+
+msgid "Type a message..."
+msgstr "Scrivi un messaggio..."
+
+msgid "2024 Bright Path. All rights reserved."
+msgstr "2024 Bright Path. Tutti i diritti riservati."
+
+msgid "Course overview"
+msgstr "Panoramica del corso"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Description"
+msgstr "Descrizione"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "See"
+msgstr "Vedi"
+
+msgid "No existing courses."
+msgstr "Nessun corso disponibile."
+
+msgid "Achievements"
+msgstr "Risultati"
+
+msgid "Completed 10 Courses"
+msgstr "Completati 10 corsi"
+
+msgid "Earned after completing 10 courses."
+msgstr "Ottenuto dopo aver completato 10 corsi."
+
+msgid "Expert Learner"
+msgstr "Apprendista esperto"
+
+msgid "Awarded after mastering 5 different topics."
+msgstr "Conferito dopo aver padroneggiato 5 argomenti diversi."
+
+msgid "Top Contributor"
+msgstr "Contributore principale"
+
+msgid "Given to users who contribute regularly to discussions."
+msgstr "Assegnato agli utenti che contribuiscono regolarmente alle discussioni."
+
+msgid "Completed a Specialization"
+msgstr "Completato una Specializzazione"
+
+msgid "Earned after finishing a complete specialization track."
+msgstr "Ottenuto dopo aver completato un percorso di specializzazione."
+
+msgid "Top Scorer"
+msgstr "Miglior punteggio"
+
+msgid "Awarded for achieving the highest score on a quiz."
+msgstr "Conferito per aver ottenuto il punteggio più alto in un quiz."
+
+msgid "Lifetime Learner"
+msgstr "Apprendista a vita"
+
+msgid "Given to users who have been on the platform for more than 5 years."
+msgstr "Assegnato agli utenti che sono sulla piattaforma da più di 5 anni."
+
+msgid "Data Science Certificate"
+msgstr "Certificato in Data Science"
+
+msgid "Awarded for completing the Data Science Specialization."
+msgstr "Conferito per aver completato la specializzazione in Data Science."
+
+msgid "Advanced Programming Certificate"
+msgstr "Certificato in Programmazione Avanzata"
+
+msgid "Completed after mastering advanced programming concepts."
+msgstr "Completato dopo aver padroneggiato concetti avanzati di programmazione."
+
+msgid "Machine Learning Certificate"
+msgstr "Certificato in Machine Learning"
+
+msgid "Awarded after completing a machine learning course with hands-on projects."
+msgstr "Conferito dopo aver completato un corso di machine learning con progetti pratici."
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Course Content"
+msgstr "Contenuti del corso"
+
+msgid "No courses enroled."
+msgstr "Nessun corso iscritto."
+
+msgid "Username"
+msgstr "Nome utente"
+
+msgid "Pawssword"
+msgstr "Password"
+
+msgid "New user? Press here!"
+msgstr "Nuovo utente? Clicca qui!"
+
+msgid "Enter your username"
+msgstr "Inserisci il tuo nome utente"
+
+msgid "Enter your password"
+msgstr "Inserisci la tua password"
+
+msgid "Re-enter your password"
+msgstr "Reinserisci la tua password"
+
+msgid "Enter your email"
+msgstr "Inserisci la tua email"
+
+msgid "Account Type"
+msgstr "Tipo di account"
+
+msgid "Student"
+msgstr "Studente"
+
+msgid "Professor"
+msgstr "Professore"
+
+msgid "Already have an account?"
+msgstr "Hai già un account?"
+
+msgid "Upload Course"
+msgstr "Carica corso"
+
+msgid "Course Name"
+msgstr "Nome del corso"
+
+msgid "Course Description"
+msgstr "Descrizione del corso"
+
+msgid "Course Language"
+msgstr "Lingua del corso"
+
+msgid "Course Category"
+msgstr "Categoria del corso"
+
+msgid "Course Paragraph"
+msgstr "Paragrafo del corso"
+
+msgid "Unroll Course"
+msgstr "Annulla iscrizione al corso"
+
+msgid "Chat with"
+msgstr "Chatta con"

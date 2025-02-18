@@ -1,0 +1,238 @@
+{% extends "base.html" %}
+{% block title %}Achievements{% endblock %}
+
+{% block content %}
+<main>
+  <div class="container">
+    <h2 style="color: white;">{{_("Achievements")}}</h2>
+    <div class="row">
+      <!-- Achievement 1 -->
+      <div class="col-md-4">
+        <div class="card not-received">
+          <img src="/static/tenCourses.jpeg" class="card-img-top" alt="Badge 1">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Completed 10 Courses")}}</h5>
+            <p class="card-text">{{_("Earned after completing 10 courses.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="col-md-4">
+        <div class="card not-received">
+          <img src="/static/expertLearner.jpeg" class="card-img-top" alt="Badge 2">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Expert Learner")}}</h5>
+            <p class="card-text">{{_("Awarded after mastering 5 different topics.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="col-md-4">
+        <div class="card not-received">
+          <img src="/static/topContributor.png" class="card-img-top" alt="Badge 3">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Top Contributor")}}</h5>
+            <p class="card-text">{{_("Given to users who contribute regularly to discussions.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100"></div>
+
+      <!-- Achievement 4 -->
+      <div class="col-md-4">
+        <div class="card not-received">
+          <img src="/static/specialization.png" class="card-img-top" alt="Badge 4">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Completed a Specialization")}}</h5>
+            <p class="card-text">{{_("Earned after finishing a complete specialization track.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 5 -->
+      <div class="col-md-4">
+        <div class="card not-received">
+          <img src="/static/topScorer.jpeg" class="card-img-top" alt="Badge 5">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Top Scorer")}}</h5>
+            <p class="card-text">{{_("Awarded for achieving the highest score on a quiz.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 6 -->
+      <div class="col-md-4">
+        <div class="card not-received">
+          <img src="/static/lifetimeLearner.jpeg" class="card-img-top" alt="Badge 6">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Lifetime Learner")}}</h5>
+            <p class="card-text">{{_("Given to users who have been on the platform for more than 5 years.")}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Certificates Section -->
+    <h3 style="color: white;">{{_("Certificates")}}</h3>
+    <div class="row">
+      <!-- Certificate 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/static/dataScience.png" class="cert-img-top" alt="Certificate 1">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Data Science Certificate")}}</h5>
+            <p class="card-text">{{_("Awarded for completing the Data Science Specialization.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/static/advancedProgramming.png" class="cert-img-top" alt="Certificate 2">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Advanced Programming Certificate")}}</h5>
+            <p class="card-text">{{_("Completed after mastering advanced programming concepts.")}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/static/machineLearning.png" class="cert-img-top" alt="Certificate 3">
+          <div class="card-body">
+            <h5 class="card-title">{{_("Machine Learning Certificate")}}</h5>
+            <p class="card-text">{{_("Awarded after completing a machine learning course with hands-on projects.")}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; {{_("2024 Learning Platform. All rights reserved.")}}</p>
+  </div>
+</footer>
+
+{% endblock %}
+
+{% block extra_css %}
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 50px;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #e397ef;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 300px;
+    object-fit: cover;
+    /* filter: grayscale(100%); */
+}
+
+.cert-img-top {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+ul {
+    font-size: 1.1rem;
+    list-style-type: square;
+}
+
+.not-received .card-img-top {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease; 
+}
+
+.not-received .card-title,
+.not-received .card-text {
+    color: #aaa; 
+}
+
+.not-received:hover .card-img-top{
+    filter: grayscale(0%); 
+    opacity: 0.8; 
+}
+</style>
+{% endblock %}
